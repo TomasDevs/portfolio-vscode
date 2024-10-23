@@ -33,6 +33,19 @@
   },
   {
     "id": 3,
+    "name": "Soo Good Vegan",
+    "description": "A modern website for 'Soo Good' vegan burgers, featuring interactive elements and a clean design.",
+    "images": {
+      "avif": ["/images/soo-good-480.avif", "/images/soo-good-720.avif"],
+      "webp": ["/images/soo-good-480.webp", "/images/soo-good-720.webp"],
+      "jpg": ["/images/soo-good-480.jpg", "/images/soo-good-720.jpg"]
+    },
+    "tags": ["HTML", "CSS", "Bootstrap", "JavaScript"],
+    "code": "https://github.com/TomasDevs/soo-good-website",
+    "demo": "https://soogoodvegan.netlify.app/"
+  },
+  {
+    "id": 4,
     "name": "Credit Card",
     "description": "A credit card form built with HTML, Tailwind CSS, and JavaScript.",
     "images": {
