@@ -25,6 +25,7 @@ const ProjectCard = ({ project }) => {
             sizes="(max-width: 600px) 480px, (max-width: 1200px) 720px"
             alt={project.name}
             className="project-card__img"
+            loading="lazy"
           />
         )}
       </picture>
@@ -43,16 +44,26 @@ const ProjectCard = ({ project }) => {
             href={project.code}
             target="_blank"
             rel="noopener noreferrer"
-            className="project-card__links__link">
+            className="project-card__links__link"
+            aria-label={`View source code for ${project.name}`}>
             Source Code
           </a>
-          <a
-            href={project.demo}
-            target="_blank"
-            rel="noopener noreferrer"
-            className="project-card__links__link">
-            Live Demo
-          </a>
+          {project.demo ? (
+            <a
+              href={project.demo}
+              target="_blank"
+              rel="noopener noreferrer"
+              className="project-card__links__link"
+              aria-label={`View live demo of ${project.name}`}>
+              Live Demo
+            </a>
+          ) : (
+            <span
+              className="project-card__links__link project-card__links__link--disabled"
+              aria-label="Demo not available">
+              No Demo
+            </span>
+          )}
         </div>
       </div>
     </li>

@@ -111,6 +111,13 @@
         background-size: 100% 1.4em;
       }
 
+      &--disabled {
+        opacity: 0.5;
+        cursor: not-allowed;
+        pointer-events: none;
+        background-image: none;
+      }
+
       @media (min-width: 800px) {
         font-size: 1.2rem;
       }

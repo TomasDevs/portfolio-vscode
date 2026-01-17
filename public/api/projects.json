@@ -1,6 +1,45 @@
 [
   {
     "id": 1,
+    "name": "Web Optimizer",
+    "description": "A test platform for implementing and evaluating web performance optimization techniques. Bachelor's thesis project.",
+    "images": {
+      "avif": ["/images/web-optimizer-480.avif", "/images/web-optimizer-720.avif"],
+      "webp": ["/images/web-optimizer-480.webp", "/images/web-optimizer-720.webp"],
+      "jpg": ["/images/web-optimizer-480.jpg", "/images/web-optimizer-720.jpg"]
+    },
+    "tags": ["HTML", "SCSS", "React", "Vite", "PageSpeed API", "Netlify"],
+    "code": "https://github.com/TomasDevs/web-optimizer",
+    "demo": "https://web-optimizer.netlify.app/"
+  },
+  {
+    "id": 2,
+    "name": "HTTP Protocol Testing",
+    "description": "Web application for measuring and comparing HTTP/1.1, HTTP/2, and HTTP/3 performance.",
+    "images": {
+      "avif": ["/images/http-testing-480.avif", "/images/http-testing-720.avif"],
+      "webp": ["/images/http-testing-480.webp", "/images/http-testing-720.webp"],
+      "jpg": ["/images/http-testing-480.jpg", "/images/http-testing-720.jpg"]
+    },
+    "tags": ["React", "Tailwind", "Vite", "HTTP/2", "HTTP/3", "Cloudflare"],
+    "code": "https://github.com/TomasDevs/http-protocol-testing",
+    "demo": "https://http-protocol-testing.tomas-stveracek.workers.dev/"
+  },
+  {
+    "id": 3,
+    "name": "Solar Gain Predictor",
+    "description": "Solar energy production predictor using real weather data and AI technology. Built with React, TensorFlow.js, and Open-Meteo API.",
+    "images": {
+      "avif": ["/images/solar-predictor-480.avif", "/images/solar-predictor-720.avif"],
+      "webp": ["/images/solar-predictor-480.webp", "/images/solar-predictor-720.webp"],
+      "jpg": ["/images/solar-predictor-480.jpg", "/images/solar-predictor-720.jpg"]
+    },
+    "tags": ["React", "TensorFlow.js", "Tailwind", "API"],
+    "code": "https://github.com/TomasDevs/solar-gain-predictor",
+    "demo": null
+  },
+  {
+    "id": 4,
     "name": "Portfolio - vscode",
     "description": "A personal portfolio built in the style of Visual Studio Code, designed to showcase my experience and projects using React.",
     "images": {
@@ -13,7 +52,7 @@
     "demo": "https://tomasdevs.netlify.app/"
   },
   {
-    "id": 2,
+    "id": 5,
     "name": "The New York Times News App",
     "description": "Get the latest news from the New York Times with this React-based web application.",
     "images": {
@@ -32,7 +71,7 @@
     "demo": "https://nyt-news-daily.vercel.app/"
   },
   {
-    "id": 3,
+    "id": 6,
     "name": "Soo Good Vegan",
     "description": "A modern website for 'Soo Good' vegan burgers, featuring interactive elements and a clean design.",
     "images": {
@@ -45,7 +84,7 @@
     "demo": "https://soogoodvegan.netlify.app/"
   },
   {
-    "id": 4,
+    "id": 7,
     "name": "Credit Card",
     "description": "A credit card form built with HTML, Tailwind CSS, and JavaScript.",
     "images": {

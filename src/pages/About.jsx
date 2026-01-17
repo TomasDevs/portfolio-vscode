@@ -1,6 +1,8 @@
 import "../styles/About.scss";
 
 const About = () => {
+  const currentYear = new Date().getFullYear();
+
   return (
     <div className="about-page">
       <pre>
@@ -32,29 +34,33 @@ const About = () => {
           <span className="line-number">11</span> &nbsp;&nbsp;&nbsp;&nbsp;&lt;/
           <span className="element">header</span>&gt; {"\n"}
           <span className="line-number">12</span> &nbsp;&nbsp;&nbsp;&nbsp;&lt;
+          <span className="element">main</span>&gt; {"\n"}
+          <span className="line-number">13</span> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&lt;
           <span className="element">section</span>&gt; {"\n"}
-          <span className="line-number">13</span>{" "}
-          &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&lt;
+          <span className="line-number">14</span>{" "}
+          &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&lt;
           <span className="element">p</span>&gt;Hi, I'm Tomas 😊. Frontend Web
           Developer 💻.&lt;/<span className="element">p</span>&gt; {"\n"}
-          <span className="line-number">14</span>{" "}
-          &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&lt;
+          <span className="line-number">15</span>{" "}
+          &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&lt;
           <span className="element">p</span>&gt;In my free time, I enjoy
-          cycling, hiking, bikepacking, coffee and traveling.&lt;/
+          cycling, hiking, bikepacking, coffee and travelling.&lt;/
           <span className="element">p</span>&gt; {"\n"}
-          <span className="line-number">15</span> &nbsp;&nbsp;&nbsp;&nbsp;&lt;/
+          <span className="line-number">16</span> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&lt;/
           <span className="element">section</span>&gt; {"\n"}
-          <span className="line-number">16</span> &nbsp;&nbsp;&nbsp;&nbsp;&lt;
+          <span className="line-number">17</span> &nbsp;&nbsp;&nbsp;&nbsp;&lt;/
+          <span className="element">main</span>&gt; {"\n"}
+          <span className="line-number">18</span> &nbsp;&nbsp;&nbsp;&nbsp;&lt;
           <span className="element">footer</span>&gt; {"\n"}
-          <span className="line-number">17</span>{" "}
+          <span className="line-number">19</span>{" "}
           &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&lt;
-          <span className="element">p</span>&gt;&copy; 2024 Tomas Stveracek. All
+          <span className="element">p</span>&gt;&copy; {currentYear} Tomas Stveracek. All
           rights reserved.&lt;/<span className="element">p</span>&gt; {"\n"}
-          <span className="line-number">18</span> &nbsp;&nbsp;&nbsp;&nbsp;&lt;/
+          <span className="line-number">20</span> &nbsp;&nbsp;&nbsp;&nbsp;&lt;/
           <span className="element">footer</span>&gt; {"\n"}
-          <span className="line-number">19</span> &nbsp;&nbsp;&lt;/
+          <span className="line-number">21</span> &nbsp;&nbsp;&lt;/
           <span className="element">body</span>&gt; {"\n"}
-          <span className="line-number">20</span> &lt;/
+          <span className="line-number">22</span> &lt;/
           <span className="element">html</span>&gt; {"\n"}
         </code>
       </pre>

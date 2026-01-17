@@ -19,22 +19,22 @@ const Contact = () => {
             stveracek.work@gmail.com
           </a>
           ; {"\n"}
-          <span className="line-number">3</span> &nbsp;&nbsp;
+          <span className="line-number">4</span> &nbsp;&nbsp;
           <span className="property">instagram</span>:{" "}
           <a href="https://www.instagram.com/tom4s_s" className="value">
             https://www.instagram.com/tom4s_s
           </a>
           ; {"\n"}
-          <span className="line-number">4</span> &nbsp;&nbsp;
+          <span className="line-number">5</span> &nbsp;&nbsp;
           <span className="property">github</span>:{" "}
           <a href="https://github.com/tomasdevs" className="value">
             https://github.com/tomasdevs
           </a>
           ; {"\n"}
           <span className="line-number">6</span> &nbsp;&nbsp;
-          <span className="property">polywork</span>:{" "}
-          <a href="https://polywork.com/tomas_stveracek" className="value">
-            https://polywork.com/tomas_stveracek
+          <span className="property">linkedin</span>:{" "}
+          <a href="https://www.linkedin.com/in/tomas-stveracek/" className="value">
+            https://www.linkedin.com/in/tomas-stveracek/
           </a>
           ; {"\n"}
           <span className="line-number">7</span> &nbsp;&nbsp;

@@ -3,6 +3,12 @@ import "../styles/Timeline.scss";
 const Timeline = () => {
   const events = [
     {
+      date: "June 2025",
+      title: "Bachelor's Degree in Applied Informatics",
+      description:
+        "Graduated from College of Polytechnics Jihlava with a Bachelor's degree.",
+    },
+    {
       date: "October 2024",
       title: "Launched Personal Portfolio",
       description: "Launched my portfolio with React to showcase my projects.",
